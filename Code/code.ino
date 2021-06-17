@@ -23,12 +23,12 @@ const int pwmResolution = 8;
 const int pwmLedChannelTFT = 0;
 
 
-const char* ssid     = "IGKx20";       ///EDIIIT
-const char* password = "1804672019"; //EDI8IT
-String town="Paris";              //EDDIT
-String Country="FR";                //EDDIT
+const char* ssid     = "IGKx20";       ///EDIIIT 需要修改的地方 添加你的WiFi账号
+const char* password = "1804672019"; //EDI8IT 需要修改的地方 添加你的WiFi账号
+String town="Paris";              //EDDIT 需要修改的地方 添加你的所在城市
+String Country="FR";                //EDDIT 需要修改的地方 添加你的所在国家
 const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q="+town+","+Country+"&units=metric&APPID=";
-const String key = "d0d0bf1bb7xxxx2e5dce67c95f4fd0800"; /*EDDITTTTTTTTTTTTTTTTTTTTTTTT                      */
+const String key = "d0d0bf1bb7xxxx2e5dce67c95f4fd0800"; /*EDDIT 需要修改的地方 添加注册天气网站获取的秘钥   */
 
 String payload=""; //whole json 
  String tmp="" ; //temperatur
